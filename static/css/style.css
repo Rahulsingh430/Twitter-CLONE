@@ -147,10 +147,11 @@ img.logo {
 }
 .main {
   max-width: 600px;
-  height: 100%;
+
   margin: 0 auto;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 .tweet_post {
   display: flex;
@@ -204,6 +205,7 @@ img.logo {
   border: #5ea9dc;
   padding: 7px;
   border-radius: 3px;
+  margin-bottom: 5%;
 }
 
 .contentt .cancel {
