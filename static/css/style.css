@@ -21,6 +21,7 @@ post
 .post_form {
   padding: 20px 40px;
   border-bottom: 12px solid #f2ebeb;
+  font-family: Helvetica;
 }
 .post_form .logo_box {
   display: flex;
@@ -56,6 +57,9 @@ post
   border: none;
   background-color: white;
   border-radius: 3%;
+}
+.post_form .box {
+  font-family: Helvetica;
 }
 
 .posts ul {
@@ -94,8 +98,7 @@ post
   position: relative;
   border-bottom: solid #ccc;
 }
-
-.posts li .logo {
+.post .posts li .logo {
   flex-basis: 15%;
 }
 
@@ -118,6 +121,12 @@ post
   .posts li .name_body .name {
     font-size: 20px;
   }
+}
+img.postimage {
+  border-radius: 14px;
+}
+section.posts {
+  font-family: Helvetica;
 }
 /* heading */
 .heading {
