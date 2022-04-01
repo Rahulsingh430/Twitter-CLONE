@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-import cloudinary 
+import cloudinary
 import cloudinary.uploader
 import cloudinary.api
 import os
@@ -124,19 +124,26 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-cloudinary.config( 
-  cloud_name = "techisrahul2022", 
-  api_key = "843576314463578", 
-  api_secret = "fheA0B_sO14x_3mbs3epZgDT5x0",
-  secure=True,
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    # BASE_DIR,"static"
+    # '/var/www/static/',
+]
+cloudinary.config(
+    cloud_name="techisrahul2022",
+    api_key="843576314463578",
+    api_secret="fheA0B_sO14x_3mbs3epZgDT5x0",
+    secure=True,
 )
 
-STATICFILES_DIRS = [
-    BASE_DIR / 'static'
-]
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
-# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+
