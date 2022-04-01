@@ -1,13 +1,9 @@
-# Django-forum-app
+# Twitter Clone
 
-#This is my Django Forum Project 
+#This is my Twitter CLONE Project 
 -I have used django for web framework to utilize the HTML/CSS with Python to make a web page.
--I have added form to take user input and added functionality to it using JAVA script.
--In this project as an Frontend user we can post a paragraph which consist Name and date and also we can delete the post.
--In this I learn to utilize the Backend to do changes on web page as admin.
 
-![screenshot]<img width="608" alt="image" src="https://user-images.githubusercontent.com/101321694/160386683-65423150-e1a0-4b03-b9a4-6b06b25f7ff0.png">
-
+![screenshot]<img width="610" alt="image" src="https://user-images.githubusercontent.com/101321694/161179140-2991e745-a921-4f83-8a80-9c785fd02531.png">
 
 
 ## Technologies Used
